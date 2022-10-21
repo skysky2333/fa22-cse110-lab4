@@ -1,0 +1,2 @@
+1. The bug is that, because 'document.getElementById("num2").value' returns a string, therefore line 11 and inside calculateSum() function concatenate two strings instead of adding two number when using the '+' operator.
+2. A simple fix is casting the num1 and num2 from string to number type using Number() function before adding them.
